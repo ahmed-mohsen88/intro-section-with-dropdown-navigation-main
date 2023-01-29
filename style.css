@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  font-size: 18px;
+}
+body {
+  height: 100vh;
+}
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Epilogue;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* nav bar styling start */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 30px;
+  height: 10vh;
+}
+
+/* nav left */
+.nav_left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50vw;
+  height: 80vh;
+  gap: 50px;
+}
+.nav_links {
+  display: flex;
+  justify-content: flex-start;
+  width: 35vw;
+}
+.nav_links div {
+  margin: 20px;
+}
+
+/* nav right */
+.nav_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50vw;
+  gap: 40px;
+}
+button {
+  border: none;
+  background-color: white;
+}
+.reg {
+  border: 1px solid hsl(0, 0%, 8%);
+  border-radius: 9px;
+  padding: 10px 18px;
+}
+
+/* nav bar styling end */
+
+/* main styling start */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  margin: 10px auto;
+  height: 90vh;
+}
+main > div {
+  width: 50vw;
+  height: 79vh;
+  display: flex;
+}
+.main_right {
+  position: relative;
+}
+.main_right img {
+  position: absolute;
+  width: 34vw;
+  height: 75vh;
+  top: 0;
+  left: 23%;
+}
+
+.main_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main_left > div {
+  margin-left: 86px;
+}
+.main_left p {
+  inline-size: 25rem;
+}
+
+.main_left_h1 {
+  margin-top: 62px;
+  inline-size: 28rem;
+  line-height: 75px;
+}
+.main_left_h1 h1 {
+  font-size: 5rem;
+}
+
+.btn_learn > button {
+  background: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  padding: 15px 30px;
+  border-radius: 9px;
+  width: 160px;
+  height: 60px;
+}
+.main_left_footer {
+  justify-self: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 41px;
+}
